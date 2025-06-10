@@ -21,7 +21,7 @@ export default function HomePage() {
 				</div>
 			</nav>
 
-			<main className="max-w-4xl mx-auto px-6 py-20">
+			<main className="max-w-5xl mx-auto px-6 py-20">
 				<div className="text-center">
 					<h2 className="text-5xl font-bold text-gray-900 dark:text-white mb-6">
 						Welcome to Your Dashboard
@@ -41,28 +41,27 @@ export default function HomePage() {
 					</div>
 				</div>
 
-				<div className="mt-20 grid md:grid-cols-3 gap-8">
-					<div className="card p-6">
-						<div className="text-3xl mb-4">👤</div>
-						<h3 className="text-xl font-semibold mb-2">Profile Management</h3>
+				<div className="mt-20 grid md:grid-cols-2 gap-4">
+					<div className="card p-8">
+						<div className="text-3xl mb-4">🎯</div>
+						<h3 className="text-2xl font-semibold mb-3">
+							Enterprise-ready Voice AI platform
+						</h3>
 						<p className="text-gray-600 dark:text-gray-300">
-							Update your personal information and account settings
+							Our platform helps businesses create custom AI voice agents that
+							deliver 10x productivity across all customer interactions.
 						</p>
 					</div>
 
-					<div className="card p-6">
+					<div className="card p-8">
 						<div className="text-3xl mb-4">🤖</div>
-						<h3 className="text-xl font-semibold mb-2">AI Agent Config</h3>
+						<h3 className="text-2xl font-semibold mb-3">
+							Human-like Conversations
+						</h3>
 						<p className="text-gray-600 dark:text-gray-300">
-							Configure speech-to-text providers and language models
-						</p>
-					</div>
-
-					<div className="card p-6">
-						<div className="text-3xl mb-4">🎨</div>
-						<h3 className="text-xl font-semibold mb-2">Dark Mode</h3>
-						<p className="text-gray-600 dark:text-gray-300">
-							Switch between light and dark themes for optimal viewing
+							Our AI-powered voice agents create human-like, emotionally
+							expressive conversations that transform customer interactions
+							across your business.
 						</p>
 					</div>
 				</div>
