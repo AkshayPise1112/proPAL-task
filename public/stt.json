@@ -1,0 +1,106 @@
+{
+	"providers": {
+		"deepgram": {
+			"name": "Deepgram",
+			"models": {
+				"nova-2": {
+					"name": "Nova-2",
+					"languages": {
+						"en-US": "English-US",
+						"en-GB": "English-UK",
+						"es-ES": "Spanish-Spain",
+						"fr-FR": "French-France",
+						"de-DE": "German-Germany",
+						"it-IT": "Italian-Italy"
+					}
+				},
+				"base": {
+					"name": "Base",
+					"languages": {
+						"en-US": "English-US",
+						"es-ES": "Spanish-Spain",
+						"fr-FR": "French-France"
+					}
+				},
+				"enhanced": {
+					"name": "Enhanced",
+					"languages": {
+						"en-US": "English-US",
+						"en-GB": "English-UK"
+					}
+				}
+			}
+		},
+		"openai": {
+			"name": "OpenAI",
+			"models": {
+				"whisper-1": {
+					"name": "Whisper-1",
+					"languages": {
+						"en": "English",
+						"es": "Spanish",
+						"fr": "French",
+						"de": "German",
+						"it": "Italian",
+						"pt": "Portuguese",
+						"ru": "Russian",
+						"ja": "Japanese",
+						"ko": "Korean"
+					}
+				}
+			}
+		},
+		"google": {
+			"name": "Google Cloud",
+			"models": {
+				"latest_long": {
+					"name": "Latest Long",
+					"languages": {
+						"en-US": "English-US",
+						"zh-CN": "Chinese-Simplified",
+						"ja-JP": "Japanese",
+						"ko-KR": "Korean",
+						"hi-IN": "Hindi-India"
+					}
+				},
+				"latest_short": {
+					"name": "Latest Short",
+					"languages": {
+						"en-US": "English-US",
+						"es-ES": "Spanish-Spain",
+						"fr-FR": "French-France"
+					}
+				},
+				"command_and_search": {
+					"name": "Command and Search",
+					"languages": {
+						"en-US": "English-US",
+						"en-GB": "English-UK"
+					}
+				}
+			}
+		},
+		"azure": {
+			"name": "Azure Speech",
+			"models": {
+				"standard": {
+					"name": "Standard",
+					"languages": {
+						"en-US": "English-US",
+						"en-GB": "English-UK",
+						"es-ES": "Spanish-Spain",
+						"fr-FR": "French-France",
+						"de-DE": "German-Germany"
+					}
+				},
+				"premium": {
+					"name": "Premium",
+					"languages": {
+						"en-US": "English-US",
+						"zh-CN": "Chinese-Simplified"
+					}
+				}
+			}
+		}
+	}
+}
